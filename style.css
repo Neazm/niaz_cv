@@ -75,4 +75,16 @@ hr{
 footer{
     text-align: center;
     font-size: 13px;
+    background-color: gray;
+    color: white;
+    border-radius: 8px;
+    padding: 15px;
+}
+.ref_left_div{
+    float: left;
+    width: 45%;
+}
+.ref_right_div{
+    float: right;
+    width: 45%;
 }
