@@ -1,0 +1,78 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color:rgb(238, 239, 239);
+    font-family: "Sofia", sans-serif;
+}
+.container{
+    max-width: 1000px;
+    background-color:rgb(212, 238, 229);
+    margin: 0 auto;
+    border-radius: 5px;
+    padding: 20px;
+}
+.my_img{
+    height: 150px;
+    width: 125px;
+    border-radius: 50%;
+    border: 5px solid white;
+    float: left;
+}
+.header_bio{
+    float: left;
+    padding: 25px;
+}
+h1,h2,h3,h4,h5,h6{
+    color: #11999e;
+}
+.header_contact{
+    float: right;
+    padding: 30px;
+}
+.header_contact a{
+    text-decoration: none;
+    color:rgb(0, 132, 132);
+    font-weight: bold;
+}
+.header_contact a:hover{
+    text-decoration: underline;
+    color: tomato;
+}
+.clear_div{
+    clear: both;
+}
+hr{
+    border: 3px solid black;
+    width: 100%;
+    margin: 20px auto;
+    border-bottom: none;
+}
+/* personl section start */
+#personal_information{
+
+}
+.left_div{
+    width: 30%;
+    float: left;
+}
+.right_div{
+    width: 70%;
+    float: right;
+}
+.common_hr{
+    border: 1px solid black;
+    width: 100%;
+    margin: 20px auto;
+    border-bottom: none;
+    /* margin upor nice 20px r 2side e auto */ 
+}
+/* key skills start */
+.space{
+    padding-left: 18px;
+}
+footer{
+    text-align: center;
+    font-size: 13px;
+}
